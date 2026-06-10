@@ -27,32 +27,32 @@ cuandoPasa('seleccionarArtista', ({ id, cantidad, codigoDescuento }) => {
   
 
   let precioNormal : number; 
-  if (id === 'sabrina ') {
+  if (id === 'sabrina') {
     precioNormal = 1000
 
   }
-  else if (id === 'kgatlw '){
+  else if (id === 'kgatlw'){
     precioNormal = 700;
   } 
-  else if (id === 'lali ') {
+  else if (id === 'lali') {
     precioNormal = 500;
   }
-  else if (id === 'magdalena ') {
+  else if (id === 'magdalena') {
     precioNormal = 600;
   }
-  else  if (id === 'viagra ') {
+  else  if (id === 'viagra') {
     precioNormal = 400;
   }
-  else if (id === 'dillom ') {
+  else if (id === 'dillom') {
     precioNormal = 350;
   }
-  else if (id === 'marilina ') {
+  else if (id === 'marilina') {
     precioNormal = 200;
   }
-  else if (id === 'mugre ') {
+  else if (id === 'mugre') {
     precioNormal = 150;
   }
-else if (id === '') precioNormal = 0;
+
 
 
   let precio : number  = precioNormal * cantidad;
